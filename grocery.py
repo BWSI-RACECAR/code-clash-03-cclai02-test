@@ -6,7 +6,9 @@ class Solution:
 
         final_list = []
         list1 = str1.split(' ')
+        list1[len(list1) - 1] = list1[len(list1) - 1].strip()
         list2 = str2.split(' ')
+        list2[len(list2) - 1] = list2[len(list2) - 1].strip()
         for item in list1:
             if item not in final_list and item != '':
                 final_list.append(item)
