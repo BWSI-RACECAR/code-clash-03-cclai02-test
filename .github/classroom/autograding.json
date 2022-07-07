@@ -24,7 +24,7 @@
       "name": "Test3",
       "setup": "",
       "run": "python3 grocery.py",
-      "input": "apples bananas bread bananas\r\n",
+      "input": "apples bananas bread bananas\r\n\r\n",
       "output": "['apples', 'bananas', 'bread']",
       "comparison": "included",
       "timeout": 1,
